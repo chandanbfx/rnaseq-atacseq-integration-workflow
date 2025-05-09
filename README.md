@@ -133,7 +133,8 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR116/095/SRR11683995/SRR11683995_2.fas
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR891/269/SRR891269/SRR891269_1.fastq.gz
 wget https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR891/SRR891269/SRR891269_2.fastq.gz
 ```
-**Note**: To test the workflow, we use a downsampled subset of 1,000,000 reads from the raw RNA-seq and ATAC-seq data.
+**Note**: To test the workflow, we use a downsampled subset of 1,000,000 reads from the raw RNA-seq and ATAC-seq data
+
 ---
 
 ## Reference Files
