@@ -1,0 +1,2 @@
+sample	rna_fastq1	rna_fastq2	atac_fastq1	atac_fastq2
+test1	data/rna/SRR11683995_1_downsample.fastq.gz	data/rna/SRR11683995_2_downsample.fastq.gz	data/atac/SRR891269_1_downsample.fastq.gz	data/atac/SRR891269_2_downsample.fastq.gz

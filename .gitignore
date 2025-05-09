@@ -1,0 +1,33 @@
+# Snakemake
+.snakemake/
+*.log
+*.html
+*.pdf
+*.tmp
+*.bak
+*.snakemake
+*.snk
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Conda
+.env/
+.venv/
+*.yaml
+envs/
+
+# Temporary files
+*.tmp
+*.log
+*.snakemake
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
