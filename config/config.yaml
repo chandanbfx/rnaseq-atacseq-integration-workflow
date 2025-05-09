@@ -1,0 +1,22 @@
+# General parameters
+project_name: "bulkRNAseq_ATACseq_integration"
+results_dir: "results"
+log_dir: "logs"
+threads: 2
+
+# Reference files
+genome_fasta: "resources/chr22.fa"
+gtf_annotation: "resources/gencode.v42.chr22.gtf"
+chrom_sizes: "resources/hg38.chr22.chrom.sizes"
+
+# RNA-seq specific
+rna_adapter: "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA"
+star_index: "results/indices/star"  # Changed to local path
+
+# ATAC-seq specific
+atac_adapter: "CTGTCTCTTATACACATCT"
+bowtie2_index: "results/indices/bowtie2/chr22"
+
+# STAR index parameters
+star_index_overhang: 100  # For typical 100bp paired-end reads
+star_index_genomeSAindexNbases: 14  # For small genomes, adjust as needed
