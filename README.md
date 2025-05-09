@@ -185,5 +185,7 @@ This workflow leverages the power of several open-source bioinformatics tools an
     UCSC Genome Browser Downloads – Reference genome sequences
 ---
 ## Need Help?
+
 Feel free to open an issue or start a discussion on the repository.
+
 ---
